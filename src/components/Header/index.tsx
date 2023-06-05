@@ -5,10 +5,10 @@ import LangButtons from '@/components/LangButtons'
 const Header: FC = () => {
   const { translations } = useTranslations()
   return (
-    <header>
+    <header className="flex justify-between">
       <LangButtons />
       <nav>
-        <ul>
+        <ul className="flex gap-1">
           <li>{translations.navLinks.home}</li>
           <li>{translations.navLinks.anchorTitle}</li>
         </ul>

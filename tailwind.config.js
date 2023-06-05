@@ -10,34 +10,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          base: '#07BAC1',
-          light: '#88DBDF',
-          lighter: '#C1EDEF',
-          darker: '#068A8F',
-        },
-        soport: {
-          error: '#FF4E4E',
-          errorLight: '#FF8282',
-          success: '#00AF80',
-          successLight: '#00E08B',
-        },
-        nautral: {
-          base: '#7B7B7B',
-          light: '#C5C5C5',
-          lighter: '#F8F8F8',
-          darker: '#333333',
-        },
-        secondary: {
-          base: '#F8D498',
-          light: '#FFE7C0',
-          lighter: '#FFF5E5',
-          darker: '#785825',
-        },
-        transparency: {
-          secondaryDarker80: 'rgba(120,88,37,0.8)',
-          secondaryBase80: 'rgba(248,212,152,0.8)',
-        },
+        darkText: '#262626',
+        lightText: '#c9c9c9',
+        darkBackground: '#262626',
+        lightBackground: '#454545',
+        orangeBackground: 'rgba(234, 100, 24, 0.32)',
+        darkOrange: '#EA6418',
+        lightOrange: '#F2994A',
       },
       fontFamily: {
         jost: ['Jost', 'sans-serif'],

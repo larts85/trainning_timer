@@ -4,6 +4,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import useTranslations from '@/hooks/useTranslations'
 import Header from '../components/Header'
+import Button from '@/components/Button'
 
 const Home: NextPage = () => {
   const { translations } = useTranslations()
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <h1>{translations.home.greeting}</h1>
-      <button className="btn-primary">Save changes</button>
+      <Button cta="Save changes" className="btn-primary" />
     </>
   )
 }

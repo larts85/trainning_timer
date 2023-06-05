@@ -7,7 +7,7 @@ const LangButtons = () => {
   const { currentLang, langs } = useTranslations()
 
   return (
-    <nav>
+    <nav className="flex gap-2">
       {langs!.map(
         (lang) =>
           currentLang !== lang && (
